@@ -21,6 +21,8 @@ int main()
 		total += p1[i];
 	}
 
+	delete[] p1;
+
 	ave = total / numberOfPeople;
 
 	cout << endl;
